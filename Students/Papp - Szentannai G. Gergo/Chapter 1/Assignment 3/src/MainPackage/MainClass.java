@@ -28,12 +28,10 @@ public class MainClass {
 		int DIGIT; // number of digits
 		System.out.println("Enter number of digits:");
 		
-		if (userInput.hasNextInt()) // Enter upper bound
-		{
+		if (userInput.hasNextInt()) // Enter upper bound {
 			DIGIT = userInput.nextInt();
 		}
-		else
-		{
+		else {
 			System.out.println("No integer entered!");
 			DIGIT = 0;
 		}
